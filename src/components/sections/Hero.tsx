@@ -1,5 +1,5 @@
-import { Header } from './Header';
-import { CalendarIcon, ChevronDown } from '../icons';
+import { Header } from "./Header";
+import { CalendarIcon, ChevronDown } from "../icons";
 
 export const Hero = () => (
   <div id="home" className="w-full">
@@ -19,7 +19,10 @@ export const Hero = () => (
               <p className="text-center md:tracking-wider text-slate-200 font-normal mb-4 md:text-lg lg:text-2xl">
                 Personalized, practical, and results-driven legal solutions.
               </p>
-              <a href="#touch" className="bg-slate-900 relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden rounded-sm p-[1px] focus:outline-none">
+              <a
+                href="#touch"
+                className="bg-slate-900 relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden rounded-sm p-[1px] focus:outline-none"
+              >
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-none px-7 text-sm font-medium text-neutral-200 backdrop-blur-3xl gap-2 hover:bg-slate-800 transition-colors">
                   SCHEDULE <CalendarIcon />
                 </span>
