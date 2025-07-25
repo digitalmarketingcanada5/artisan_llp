@@ -3,7 +3,7 @@ import { MailIcon, ContactPhoneIcon, MapPinIcon } from "../icons";
 export const Contact = () => (
   <div
     id="touch"
-    className="h-auto pt-20 pb-2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md"
+    className="h-auto pt-12 pb-2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md"
   >
     <h1 className="md:text-2xl text-7xl lg:text-8xl font-bold ml-5 text-center text-neutral-100 relative z-20">
       Contact Us

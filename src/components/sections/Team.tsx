@@ -66,8 +66,8 @@ export const Team = () => {
   ];
 
   return (
-    <div id="about" className="py-20">
-      <hr className="border-zinc-800 mb-16" />
+    <div id="about" className="pt-8 pb-20">
+      <hr className="border-zinc-800 mb-12" />
       <div className="font-bold text-center text-[40px] md:text-5xl lg:text-6xl mb-16">
         <h2 className="text-neutral-300 leading-snug tracking-wide">
           About Us

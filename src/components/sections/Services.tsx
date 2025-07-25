@@ -1,7 +1,7 @@
 import { ServiceCardIcon } from "../icons";
 
 interface ServiceCardProps {
-  iconType: "contact" | "building" | "plane" | "columns" | "trees";
+  iconType: "contact" | "building" | "plane" | "columns" | "trees" | "scales";
   title: string;
   description: string;
 }
@@ -31,12 +31,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 );
 
 export const Services = () => (
-  <div id="services" className="py-20">
-    <hr className="mb-20 border-zinc-800" />
-    <h1 className="tracking-widest text-6xl text-center text-slate-200 font-medium mt-12 mb-12 w-full">
+  <div id="services" className="py-8 mb-4">
+    <hr className="mb-8 border-zinc-800" />
+    <h1 className="tracking-widest text-6xl text-center text-slate-200 font-medium mt-8 mb-8 w-full">
       Our Services
     </h1>
-    <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
+    <ul className="grid grid-cols-1 gap-4 md:grid-cols-12 lg:gap-4">
       <li className="min-h-[14rem] list-none md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]">
         <ServiceCard
           iconType="contact"
@@ -44,28 +44,35 @@ export const Services = () => (
           description="Purchases, sales, refinances, and residential property transactions"
         />
       </li>
-      <li className="min-h-[14rem] list-none md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]">
+      <li className="min-h-[14rem] list-none md:[grid-area:1/7/2/13] xl:[grid-area:1/9/2/13]">
         <ServiceCard
           iconType="building"
           title="Civil Litigation"
           description="Estate litigation, contract disputes, and comprehensive civil law matters"
         />
       </li>
-      <li className="min-h-[14rem] list-none md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]">
+      <li className="min-h-[14rem] list-none md:[grid-area:2/1/3/7] xl:[grid-area:1/5/2/9]">
         <ServiceCard
           iconType="plane"
           title="Wills & Estates"
           description="Drafting wills, setting up trusts, probate issues, and estate planning"
         />
       </li>
-      <li className="min-h-[14rem] list-none md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]">
+      <li className="min-h-[14rem] list-none md:[grid-area:2/7/3/13] xl:[grid-area:2/5/3/9]">
+        <ServiceCard
+          iconType="scales"
+          title="Small Claims & Landlord & Tenant Board"
+          description="Small claims court representation and landlord-tenant dispute resolution"
+        />
+      </li>
+      <li className="min-h-[14rem] list-none md:[grid-area:3/1/4/7] xl:[grid-area:2/1/3/5]">
         <ServiceCard
           iconType="columns"
           title="Commercial Real Estate"
           description="Commercial property transactions and corporate real estate matters"
         />
       </li>
-      <li className="min-h-[14rem] list-none md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]">
+      <li className="min-h-[14rem] list-none md:[grid-area:3/7/4/13] xl:[grid-area:2/9/3/13]">
         <ServiceCard
           iconType="trees"
           title="Corporate & Business Law"
@@ -73,6 +80,5 @@ export const Services = () => (
         />
       </li>
     </ul>
-    <div className="md:mb-32"></div>
   </div>
 );
