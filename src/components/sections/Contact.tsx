@@ -5,9 +5,11 @@ export const Contact = () => (
     id="touch"
     className="h-auto pt-12 pb-2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md"
   >
-    <h1 className="md:text-2xl text-7xl lg:text-8xl font-bold ml-5 text-center text-neutral-100 relative z-20">
-      Contact Us
-    </h1>
+    <div className="font-bold text-center text-[40px] md:text-5xl lg:text-6xl mb-8">
+      <h2 className="text-neutral-300 leading-snug tracking-wide">
+        Contact Us
+      </h2>
+    </div>
     <div className="w-[60rem] bg-transparent relative my-8">
       <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-black-300 to-transparent h-[2px] blur-sm"></div>
       <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-black-200 to-transparent h-px "></div>

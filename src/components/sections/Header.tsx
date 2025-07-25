@@ -42,7 +42,7 @@ export const Header = () => (
         <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></div>
       </a>
 
-      <a
+      {/* <a
         className="relative group flex items-center space-x-1 sm:space-x-2 text-neutral-600 dark:text-neutral-300 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-300 font-medium"
         href="#testimonials"
       >
@@ -53,7 +53,7 @@ export const Header = () => (
           Reviews
         </span>
         <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></div>
-      </a>
+      </a> */}
 
       <a
         className="relative group flex items-center space-x-1 sm:space-x-2 text-neutral-600 dark:text-neutral-300 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-300 font-medium"

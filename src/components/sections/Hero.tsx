@@ -10,8 +10,13 @@ export const Hero = () => (
           <div className="h-screen w-full dark:bg-black-100 bg-transparent absolute top-0 left-0 flex items-center justify-center"></div>
           <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-              <p className=" tracking-wider uppercase text-2xl text-center text-slate-200 font-medium max-w-83">
-                Artisan Law LLP
+              <p className="tracking-wider uppercase text-4xl text-center font-bold max-w-86 relative">
+                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent drop-shadow-lg">
+                  Artisan Law LLP
+                </span>
+                <span className="absolute inset-0 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent blur-sm opacity-50">
+                  Artisan Law LLP
+                </span>
               </p>
               <h1 className="text-center -tracking-wide text-white md:text-6xl xl:text-7xl text-2xl mt-9 mb-9 font-bold">
                 Greater Toronto Area&apos;s Most Trusted Legal Partners

@@ -1,7 +1,7 @@
 export const Footer = () => {
   const socialLinks = [
     {
-      href: "/",
+      href: "https://www.linkedin.com/company/artisan-law-llp/",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export const Footer = () => {
       ),
     },
     {
-      href: "/",
+      href: "https://www.instagram.com/artisanlawllp?igsh=b2U2dGg0ZGttMjhs&utm_source=qr",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,26 +44,26 @@ export const Footer = () => {
         </svg>
       ),
     },
-    {
-      href: "/",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="tabler-icon tabler-icon-brand-x h-full w-full text-neutral-500 dark:text-neutral-300"
-        >
-          <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
-          <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
-        </svg>
-      ),
-    },
+    // {
+    //   href: "/",
+    //   icon: (
+    //     <svg
+    //       xmlns="http://www.w3.org/2000/svg"
+    //       width="24"
+    //       height="24"
+    //       viewBox="0 0 24 24"
+    //       fill="none"
+    //       stroke="currentColor"
+    //       strokeWidth="2"
+    //       strokeLinecap="round"
+    //       strokeLinejoin="round"
+    //       className="tabler-icon tabler-icon-brand-x h-full w-full text-neutral-500 dark:text-neutral-300"
+    //     >
+    //       <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+    //       <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+    //     </svg>
+    //   ),
+    // },
   ];
 
   return (
@@ -80,7 +80,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
             >
               <div className="aspect-square rounded-full bg-gray-200 dark:bg-neutral-800 flex items-center justify-center relative w-10 h-10 hover:bg-neutral-700 transition-colors">
-                <div className="flex items-center justify-center w-5 h-5">
+                <div className="flex items-center justify-center w-8 h-8">
                   {link.icon}
                 </div>
               </div>
