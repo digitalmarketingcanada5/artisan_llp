@@ -1,4 +1,4 @@
-import { MailIcon, ContactPhoneIcon, MapPin2Icon } from '../icons';
+import { MailIcon, ContactPhoneIcon } from '../icons';
 
 export const Contact = () => (
   <div id="touch" className="h-auto pt-20 pb-2 w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">

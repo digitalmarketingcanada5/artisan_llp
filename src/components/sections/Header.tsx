@@ -1,12 +1,13 @@
-import { BriefcaseIcon, ManIcon, PhoneIcon, NoteIcon, StarIcon } from '../icons';
+import { BriefcaseIcon, ManIcon, PhoneIcon, StarIcon } from '../icons';
 import { LocationButton } from '../ui/LocationModal';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Header = () => (
   <div className="flex max-w-full fixed top-0 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] dark:bg-black/95 bg-white/[0.96] backdrop-blur-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-6 py-3 items-center justify-center space-x-8">
-    <a href="/" className="flex-shrink-0">
-      <Image src="/logo3.png" alt="Artisan Law Logo" className="w-20 h-20 hover:scale-105 transition-transform duration-200" width={80} height={80} />
-    </a>
+    <Link href="/" className="flex-shrink-0">
+      <Image src="/Logo3.png" alt="Artisan Law Logo" className="w-20 h-20 hover:scale-105 transition-transform duration-200" width={80} height={80} />
+    </Link>
     
     <div className="flex items-center space-x-8">
       <a className="relative group flex items-center space-x-2 text-neutral-600 dark:text-neutral-300 hover:text-purple-500 dark:hover:text-purple-400 transition-all duration-300 font-medium" href="#services">

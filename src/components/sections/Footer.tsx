@@ -43,11 +43,7 @@ export const Footer = () => {
             <a key={i} href={link.href} target="_blank" rel="noopener noreferrer">
               <div className="aspect-square rounded-full bg-gray-200 dark:bg-neutral-800 flex items-center justify-center relative w-10 h-10 hover:bg-neutral-700 transition-colors">
                 <div className="flex items-center justify-center w-5 h-5">
-                  {link.imgSrc ? (
-                    <img alt={link.alt} loading="lazy" width="100" height="100" src={link.imgSrc} />
-                  ) : (
-                    link.icon
-                  )}
+                  {link.icon}
                 </div>
               </div>
             </a>

@@ -1,5 +1,4 @@
 import { Header } from './Header';
-import { Button } from '../ui/Button';
 import { CalendarIcon, ChevronDown } from '../icons';
 
 export const Hero = () => (
