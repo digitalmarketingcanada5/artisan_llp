@@ -32,7 +32,7 @@ export const LocationDropdown: React.FC<LocationDropdownProps> = ({ isOpen, onCl
   return (
     <div 
       ref={dropdownRef}
-      className="absolute top-full right-0 mt-2 w-80 bg-zinc-900 border border-zinc-700 rounded-xl shadow-2xl z-[9999] overflow-hidden"
+      className="absolute top-full right-0 mt-2 w-72 sm:w-80 bg-zinc-900 border border-zinc-700 rounded-xl shadow-2xl z-[9999] overflow-hidden"
     >
       {/* Arrow pointing up */}
       <div className="absolute -top-2 right-4 w-4 h-4 bg-zinc-900 border-l border-t border-zinc-700 rotate-45"></div>
@@ -77,7 +77,7 @@ export const LocationButton = () => {
     <div className="relative">
       <button 
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-        className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white p-4 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+        className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white p-2 sm:p-3 lg:p-4 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
       >
         <MapPinIcon />
       </button>
