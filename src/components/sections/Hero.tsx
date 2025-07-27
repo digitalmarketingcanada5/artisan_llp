@@ -6,7 +6,7 @@ export const Hero = () => (
     <div className="flex flex-col">
       <section className="flex flex-col bg-no-repeat">
         <Header />
-        <div className="pb-[-30px] pt-44">
+        <div className="pb-[-30px] pt-40">
           <div className="h-screen w-full dark:bg-black-100 bg-transparent absolute top-0 left-0 flex items-center justify-center"></div>
           <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
