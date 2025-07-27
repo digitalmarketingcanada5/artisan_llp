@@ -10,9 +10,10 @@ export const Header = () => (
         src="/ArtisanLaw.png"
         alt="Artisan Law LLP - Crafting Legal Solutions with Care"
         className="h-18 w-auto sm:h-22 lg:h-32 xl:h-36 hover:scale-105 transition-transform duration-200 object-contain"
-        width={280}
-        height={140}
+        width={400}
+        height={200}
         priority
+        quality={95}
       />
     </Link>
 
@@ -24,7 +25,7 @@ export const Header = () => (
         <span className="block sm:hidden group-hover:scale-110 transition-transform duration-200">
           <BriefcaseIcon />
         </span>
-        <span className="hidden sm:block text-xs sm:text-sm tracking-wide">
+        <span className="hidden sm:block text-sm sm:text-base lg:text-lg xl:text-xl tracking-wide">
           Services
         </span>
         <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></div>
@@ -37,7 +38,7 @@ export const Header = () => (
         <span className="block sm:hidden group-hover:scale-110 transition-transform duration-200">
           <ManIcon />
         </span>
-        <span className="hidden sm:block text-xs sm:text-sm tracking-wide">
+        <span className="hidden sm:block text-sm sm:text-base lg:text-lg xl:text-xl tracking-wide">
           Our Team
         </span>
         <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></div>
@@ -63,7 +64,7 @@ export const Header = () => (
         <span className="block sm:hidden group-hover:scale-110 transition-transform duration-200">
           <PhoneIcon />
         </span>
-        <span className="hidden sm:block text-xs sm:text-sm tracking-wide">
+        <span className="hidden sm:block text-sm sm:text-base lg:text-lg xl:text-xl tracking-wide">
           Contact
         </span>
         <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></div>
