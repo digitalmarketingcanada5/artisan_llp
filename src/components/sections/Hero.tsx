@@ -9,12 +9,9 @@ export const Hero = () => (
         <div className="pb-[-30px] pt-40">
           <div className="h-screen w-full dark:bg-black-100 bg-transparent absolute top-0 left-0 flex items-center justify-center"></div>
           <div className="flex justify-center relative my-20 z-10">
-            <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-              <p className="tracking-wider uppercase text-4xl text-center font-bold max-w-86 relative">
-                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent drop-shadow-lg">
-                  Artisan Law LLP
-                </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent blur-sm opacity-50">
+            <div className="max-w-[95vw] md:max-w-4xl lg:max-w-[80vw] flex flex-col items-center justify-center">
+              <p className="tracking-wider uppercase text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-bold max-w-86 relative whitespace-nowrap">
+                <span className="text-white  drop-shadow-2xl">
                   Artisan Law LLP
                 </span>
               </p>
